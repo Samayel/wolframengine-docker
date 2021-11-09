@@ -1,9 +1,23 @@
 # Activation
 
-## free license
 
-via /opt/Wolfram/WolframScript/bin/wolframscript
+## Method
 
-## production license
+### Free license
 
-via /usr/local/Wolfram/WolframEngine/12.3/Executables/math
+call /opt/Wolfram/WolframScript/bin/wolframscript
+
+### Production license
+
+call /usr/local/Wolfram/WolframEngine/12.3/Executables/math
+
+
+## Scope
+
+### User
+
+~/.WolframEngine/Licensing/mathpass
+
+### System
+
+/usr/local/Wolfram/WolframEngine/12.3/Configuration/Licensing/mathpass
